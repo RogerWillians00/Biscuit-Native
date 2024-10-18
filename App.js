@@ -79,6 +79,7 @@ const styles = StyleSheet.create({
   },
    img:{
     width:120,
+    shadowOpacity:5,
     height:300
    },
    textoFrase:{
