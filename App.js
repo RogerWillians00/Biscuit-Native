@@ -15,7 +15,7 @@ constructor(props){
   img: require('./src/biscoito.png')
   };
 this.quebraBiscoito = this.quebraBiscoito.bind(this);
-
+//Array que armazena as frases da Sorte.
 this.frases = [
     "A sorte sorrirá para você em breve.",
     "Seu esforço será recompensado com sucesso.",
@@ -82,6 +82,7 @@ const styles = StyleSheet.create({
     height:300
    },
    textoFrase:{
+    padding: 30,
     fontSize:20,
     color:'#dd7b22',
     margin:'30',
